@@ -1,0 +1,91 @@
+AWS
+
+1. 이력서를 빛나게 해주는 기술
+2. 현실적으로 프로젝트를 하게한다.
+
+aws / docker container / kubernetes / ELK 스택 /gcp
+
+
+-수업중 필요한 기술
+1. 화면 캡쳐 : window key + shift + s
+
+
+aws 기능
+1. billing
+2. IAM (읽을 때, 아이에이엠)
+3. EC2
+   ecc elastic computer cloude
+
+
+
+오른쪽 위 상단 :
+리전(region) : 지역 
+
+도메인 네임 : 별칭 고유하게 만들기.
+
+admin(관리자 계정)
+
+MFA: Multi-Factor Authentication(다중 인증)
+
+
+zoom 회의 id : 598 907 3083 
+pw : 664719
+
+--------------------------------------------
+
+aws 용어
+
+인스턴스 : 클라우드의 가상 서버(virtual server in cloud)
+보안그룹(Security Group :SG) : 보안 그룹은 인스턴스에 대한 트래픽을 제어하는 방화벽 규칙 세트
+ 방화벽 : 특정 트래픽(port) 허용하거나 / 차단(block,close)
+
+aws 5 - 해외는 압도적
+gcp 2 (구글)
+azure 3 (마이크로소프트) - 한국에서는 따봉 !
+naver cloud
+대시보드(dashboard) : 현황판, 계기판 
+리전(region) : 전세계의 영역
+ex. 서울 리전에서 ec2인스턴스 실행 중..
+20.04 LS
+
+Debian - Ubuntu - Raspberry PI (Raspian) - Kali Linux - 명령어
+ex. # sudo apt -y update
+'Ubuntu' 뜻 : i am because you are.
+	 ' 내가 있는(존재하는)것은,당신이 있기 때문이다.
+
+RedHat - Fedora - CentOS
+ex. # sudo yum -y update
+    # sudo dnf -y update
+
+=================================
+
+
+$sudo apt -y update
+$sudo apt -y upgare
+
+항상 시스템을 반짝반짝하게 관리하는 좋은 습관.
+닦고 기름치고 조이자!
+
+nginx 
+
+spring
+django
+
+$ sudo systemctl status nginx
+$ sudo systemctl stop nginx
+		start
+$ sudo apt -y purge nginx
+$ sudo apt -y update _를 자주해주자
+$sudo apt autoremove
+
+$ curl http:// localhost
+ == curl (http://)localhost
+ == curl (http://)127.0.0.1
+ == curl 127.0.0.1
+ == culr 
+
+$ cd /var/www/html 
+
+
+
+

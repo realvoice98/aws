@@ -1,0 +1,79 @@
+프로젝트 주제 선정
+
+- 이전 기수 주제및 내용 많이 참고
+- 앞으로 회의시 : attitude 필기구 지참
+- 우리는 engineer <--> scientist
+- 공학적 프로세스를 거쳐야 함. 공학적 마인드
+- 아이디어 회의
+
+  주제(brainstorming : 두뇌 쥐어 짜내기) 1-2, 2-3 X
+  benchmarking (따라잡기,기존 유사 아이디어 검색: 창조는 없다.)
+
+ 프로젝트 함에 있어 키워드 : '굳이' 좀 써봐라.
+
+----------------------------------------------------------------------------------  
+
+mysql workbench 접속 시도 : 안됌
+ 이유 2 가지 ㅇ
+(1) mysql port를 열어줘야 함 - > aws 보안그룹에서
+(2)mysql 설정도 수정
+/etc/mysql/mysql.conf.d$
+
+(3)
+(4) 외부에서 root로 접속하는 것을 허용하지 않으므로,
+외부에서 접속가능한 계정을 하나 만들기
+
+----------------------------------------------------------------------------------
+
+* 프로젝트를 할때 탄력적 ip를 사용할 수 밖에없음.
+
+
+Relational Database Service(RDS) 
+
+엔드포인트.
+
+
+----------------------------------------------------------------------------------
+
+네트워크
+
+public IP / private IP
+
+IP address : version 2 가지 
+
+IPv4 address : 32 bit 0000 0000 0000 0000 0000 0000 0000 : 2^32 == 10억
+IPv6 address : 128 bit
+
+----------------------------------------------------------------------------------
+
+파라미터 그룹 : 한글(데이터)
+
+charset: utf8
+
+coll:
+
+aws 심장 엔진 
+aws 람다, aws api gateway
+
+aws lambda : serverless computing ... 
+(사용자가 서버 인스턴스를 구성할 필요없이...)
+
+role (역할)
+policy(정책)
+
+트리거는 어떤 이벤트를 발생시키는것.
+
+ https://0hc2mx1o6c.execute-api.ap-northeast-2.amazonaws.com <- endpoint
+/default/myfirst : resource (path)
+
+도커 설치
+도커 기본 명령 한두개
+
+정석
+
+systemctl status nginx == $sevice nginx status
+	stop/start		  stop/start
+
+컨테이너 빠져나오는 방법 두가지
+(1) ctrl 누른 상태에서 p q <---컨테이너 실행중 (컨테이너 살아있는 상태)
+(2) exit 		         <--- 컨테이너 종료 후 빠져나옴 (컨테이너 끝난 상태)
